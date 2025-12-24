@@ -1,0 +1,12 @@
+{
+  "name": "D Plugin",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"action": {
+		"default_title": "D Plugin"
+	},
+	"permissions": ["activeTab", "scripting"],
+	"background": {
+		"service_worker": "index.js"
+	}
+}
